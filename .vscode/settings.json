@@ -1,0 +1,6 @@
+{
+    "python.analysis.typeCheckingMode": "off",
+    "python.linting.lintOnSave": false,
+    "python.linting.enabled": false,
+    "monokaiPro.fileIconsMonochrome": false
+}

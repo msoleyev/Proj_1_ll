@@ -1,0 +1,21 @@
+
+
+{% extends "learning_logs/base.html" %}
+
+{% block page_header %}
+	<div class="jumbotron">
+		<h1 class="display-3">Отслеживайте изучение интересующих тем</h1>
+
+        <p class="lead">Создайте собственный журнал для изучения интересующих тем.
+			Храните в журнале список тем, которые вы изучаете. 
+			Добавляйте новую информацию об интересующей вас теме или отредактируйте уже имеющуюся
+		</p>
+
+		<a class="btn btn-lg btn-primary" href="{% url 'users:register' %}"
+			role="button">Зарегистрироваться &raquo;</a>
+				
+		
+	</div>
+{% endblock page_header %}
+
+
